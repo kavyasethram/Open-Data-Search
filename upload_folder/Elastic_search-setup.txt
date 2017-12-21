@@ -1,0 +1,10 @@
+1) https://www.elastic.co/downloads/elasticsearch ---> Download the tar
+2)Copy the extracted tar to program files under folder 'Elastic'
+3)Modify the .yml file under config to nable interaction between different pors( of firebase and elastic search)
+http.cors.enabled : true
+http.cors.allow-origin : "*"
+http.cors.allow-methods : OPTIONS, HEAD, GET, POST, PUT, DELETE
+http.cors.allow-headers : X-Requested-With,X-Auth-Token,Content-Type, Content-Length
+4)C:\Program Files\Elastic\elasticsearch-5.6.3\bin-- > To run elastic search. Run the bat file in admin mode
+5)Using jquery because its client side programming.
+6)https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/browser-builds.html 
